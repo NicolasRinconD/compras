@@ -1,0 +1,21 @@
+{% extends 'base.html' %} 
+{% block content %} 
+<div class="content-section">
+       <form>
+        <script
+            src="https://checkout.epayco.co/checkout.js"
+            class="epayco-button"
+            data-epayco-key="491d6a0b6e992cf924edd8d3d088aff1"
+            data-epayco-amount="500000"
+            data-epayco-name="Zapato antusu"
+            data-epayco-description="Zapato azul"
+            data-epayco-currency="cop"
+            data-epayco-country="co"
+            data-epayco-test="true"
+            data-epayco-external="true"
+            data-epayco-response="https://ejemplo.com/respuesta.html"
+            data-epayco-confirmation="https://ejemplo.com/confirmacion">
+        </script>
+    </form>
+</div>
+{% endblock %}
